@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    <!--Site desenvolvido pela IronCode-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css" integrity="sha512-R+xPS2VPCAFvLRy+I4PgbwkWjw1z5B5gNDYgJN5LfzV4gGNeRQyVrY7Uk59rX+c8tzz63j8DeZPLqmXvBxj8pA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>QR Code</title>
 </head>
@@ -19,12 +22,13 @@
         </header>
 
         <div class="form">
-            <input type="text" placeholder="Digite texto ou URL...">
+            <input type="text" placeholder="Digite texto ou URL..." autocomplete="off">
             <button>Gerar QR Code</button>
+            <p>Site desenvolvido pela <strong><a href="http://iron-code.com">IronCode</a></strong></p>
         </div>
 
-        <div class="qr-code">
-            <img src="qr-code.png" alt="qr-code">
+        <div class="qr-code">            
+            <img src="" alt="qr-code">            
         </div>
 
     </div>
